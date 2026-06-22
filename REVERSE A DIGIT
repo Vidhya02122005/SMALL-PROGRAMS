@@ -1,0 +1,8 @@
+a=3452
+r=0
+while a>0:
+    num=a%10
+    r=r*10+num
+    a=a//10
+
+print(r)
