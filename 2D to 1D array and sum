@@ -1,0 +1,10 @@
+a=[[10,20,30,40],[11,22,33,88],[44,55,66,77]]
+rows=3
+col=4
+b=[]
+for i in range(rows*col):
+    r=i//col
+    c=i%col
+    b.append(a[r][c])
+print(b)
+print(b[0]+b[-1])
