@@ -1,0 +1,8 @@
+a=["Raju","Ram","Sam","Curran","Balu"]
+b=[[22,33,44],[30,40,50],[88,77,66],[45,65,76],[23,54,56]]
+c=[]
+for i in b:
+    c.append(sum(i)//3)
+print(c)
+d=dict(zip(a,c))
+print(d)
