@@ -1,0 +1,9 @@
+A=[11,12,13,8,5,100,4,6,8,2,3,99,88,33]
+print(len(A))
+mid=len(A)//2
+b=A[:mid]
+c=A[mid:]
+b.sort()
+c.sort(reverse=True)
+print(b)
+print(c)
