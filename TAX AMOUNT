@@ -1,0 +1,10 @@
+a=int(input("Enter teh amount:"))
+if a<=250000:
+    tax=a*(0)
+elif a>250001 and a<500000:
+    tax=a*(5/100)
+elif a>500001 and a<1000000:
+    tax=a*(20/100)
+else:
+    tax=a*(30/100)
+print(tax)
