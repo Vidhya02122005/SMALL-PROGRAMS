@@ -1,0 +1,8 @@
+eb=int(input("enter the input:"))
+if eb<=100:
+    bill=eb*2
+elif eb>100 and eb<=200:
+    bill=100*2 + ((eb-100)*5)
+else:
+    bill=100*2 + 100*5 +((eb-200)*10)
+print("Bill=",bill)
