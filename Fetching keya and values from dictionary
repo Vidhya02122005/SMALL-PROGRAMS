@@ -1,0 +1,6 @@
+students = {
+    101: {"name": "Alice", "age": 20},
+    102: {"name": "Bob", "age": 21}
+}
+print(students[101]["name"])
+print(students[102]["age"])
